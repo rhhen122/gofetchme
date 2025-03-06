@@ -4,6 +4,9 @@
 <b>the first time opening will take a second but thats because you computer is storing and allocating the bytes.</b>
 
 ## <img height="32" src="gofetchme-white.png" align="right">Usage
+> [!NOTE]
+> This is a three step process
+
 <b>keep in <i>mind</i> that you may want to move the compiled file to your root dir.</b>
 
 ###
@@ -20,4 +23,7 @@ go build gofetch.go
 ```
 
 ###
-btw if anyone can find a way to make this a command so you can run from anywhere that would be great.
+<b>make it a command by pasting the following into either the `.bashrc` or `.zshrc` file.</b>
+```
+alias gofetch='$HOME/gofetchme/./gofetch'
+```
