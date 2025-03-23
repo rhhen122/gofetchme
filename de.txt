@@ -1,0 +1,5 @@
+kde
+gnome
+
+arch:
+    wayland

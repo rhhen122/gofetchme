@@ -7,6 +7,7 @@ import "fmt"
 var (
 	// CONFIG
 	// See "os.txt" for list of supported os's
+	// See de.txt for list of supported desktop enviroments
 
 	OS = "mac"
 	DE = "gnome"
